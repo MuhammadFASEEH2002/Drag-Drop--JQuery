@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.sub-div-one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 55%;
+    padding: 1%;
+}
+.fruit-div{
+    height: 100%;
+    width: 35%;
+    margin-right: 2%;
+    border: 0.8px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.fruit-selection{
+    width: 70%;
+    height: 20%;
+    border: 0.8px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vegetable-div{
+    height: 100%;
+    width: 35%;
+    margin-left: 2%;
+    border: 0.8px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.vegetable-selection{
+    width: 70%;
+    height: 20%;
+    border: 0.8px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-div-two{
+    width: 50%;
+    height: 30%;
+    padding: 1%;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.item{
+    width: 150px;
+    height: 50px;
+    border: 0.8px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.8%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.item:hover{
+    border: 3px solid black;
+    background-color: yellow;
+}
